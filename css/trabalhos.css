@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header-container{
+    background-color: #0c080a;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.title-header{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.title-header, .title-footer{
+    color: #fff;
+    margin-left: 10px;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.img-and-title, .img-title-footer{
+    display: flex;
+    align-items: center;
+}
+
+.areas{
+    display: flex;
+    margin-left: 40px;
+}
+
+#seletor-pags{
+    background-color: #0c080a;
+    border: 2px solid #0c080a;
+    margin-left: 10px;
+    font-family: 'Nova Square', sans-serif;
+}
+
+#botao-curriculo{
+    margin-left: 650px;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.curriculo-button{
+    text-decoration: none;
+    color: red;
+}
+
+/*Main*/
+
+.main-container{
+    background: rgb(61,61,61);
+    background: linear-gradient(180deg, rgba(61,61,61,1) 0%, rgba(99,99,99,0.79) 52%, rgba(0,0,0,0.81) 68%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    height: 79.7vh;
+}
+
+.img-container-work{
+    display: flex;
+    align-items: center;
+}
+
+.img-work{
+    width: 300px;
+}
+
+.container-work{
+    margin-left: 20px;
+    color: #fff;
+    padding: 30px;
+    border-left: 3px solid #fff;
+    max-width: 600px;
+}
+
+.work-conteudo{
+    display: flex;
+    text-align: justify;
+}
+
+/*Footer*/
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #0c080a;
+    align-items: center;
+    padding: 10px;
+}
+
+.img-title-footer{
+    margin-left: 20px;
+}
+
+#img-logo{
+    width: 20px;
+}
+
+.title-footer{
+    font-size: 20px;
+}
+
+.para-cima{
+    margin-right: 40px;
+}

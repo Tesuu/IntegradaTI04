@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: rgb(61,61,61);
+    background: linear-gradient(180deg, rgba(61,61,61,1) 0%, rgba(99,99,99,0.79) 52%, rgba(0,0,0,0.81) 68%);
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header-container{
+    background-color: #0c080a;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.title-header{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.title-header, .title-footer{
+    color: #fff;
+    margin-left: 10px;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.img-and-title, .img-title-footer{
+    display: flex;
+    align-items: center;
+}
+
+.areas{
+    display: flex;
+    margin-left: 40px;
+}
+
+#seletor-pags{
+    background-color: #0c080a;
+    border: 2px solid #0c080a;
+    margin-left: 10px;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.titles{
+    max-width: 800px;
+    width: 800px;
+}
+
+#botao-curriculo{
+    margin-left: 650px;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.curriculo-button{
+    text-decoration: none;
+    color: red;
+}
+
+/*Main*/
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.apresentacao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.apresentacao-nome{
+    font-family: 'Nova Square', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.apresentacao-img{
+    width: 200px;
+    border: 5px solid #fff;
+}
+
+.conteudo-apresentacao{
+    display: flex;
+    max-width: 500px;
+    margin-left: 100px;
+    text-align: justify;
+    background-color: #201d1e;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.nome-img-apresentacao{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    max-width: 300px;
+}
+
+li{
+    font-family: 'Nova Square', sans-serif;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.lista-sobre{
+    list-style-type: none;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.sobre-mim{
+    font-family: 'Nova Square', sans-serif;
+}
+
+.link-sobre{
+    margin-left: 5px;
+}
+
+.titles, .titles-cont{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.titles-cont{
+    display: none;
+}
+
+.contatos{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.botao-fechar{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: red;
+    border: 1px solid red;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.botao-fechar:hover{
+    background-color: rgb(156, 0, 0);
+    border: 1px solid rgb(156, 0, 0);
+}
+
+.titles-cont-open{
+    display: flex;
+}
+
+.title-hab, .title-cont{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 800px;
+    border-radius: 5px;
+}
+
+.habs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card{
+    margin-left: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#hab-tawan{
+    background-color: #929292;
+    color: #000;
+}
+
+#hab-tawan:hover{
+    background-color: #656565;
+}
+
+.img-hab, .img-hab1{
+    width: 100px;
+    margin-top: 10px;
+}
+
+.img-hab1{
+    margin-bottom: 30px;
+}
+
+/*Footer*/
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #0c080a;
+    align-items: center;
+    padding: 10px;
+}
+
+.img-title-footer{
+    margin-left: 20px;
+}
+
+#img-logo{
+    width: 20px;
+}
+
+.title-footer{
+    font-size: 20px;
+}
+
+.para-cima{
+    margin-right: 40px;
+}
